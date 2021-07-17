@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    font-family: 'Open-Sans',  sans-serif;
+    background: #002D62;    
+}
+
+.logo img{
+    padding: 30px;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.conteudo{
+    max-width: 700px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.conteudo div{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.conteudo h1{
+    color: #ff8b00;
+    text-align: center;
+    font-size: 30px;
+}
+
+.conteudo h3{
+    color: #ff8b00;
+    text-align: center;
+    font-size: 24px;
+}
+
+.conteudo p{
+    color: #fff;
+    text-align: center;
+}
+
+.conteudo form{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.formulario{
+    background: #318CE7;
+    border: #134150 solid 3px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.formulario input[type="text"], .formulario input[type="email"]{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 8px 10px;
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 75%);
+}
+
+.formulario input[type="submit"]{
+    width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: #134150;
+    border: none;
+    padding: 10px 0;
+    border-radius: 200px;
+    color: #fff;
+}
+
+.timer{
+    max-width: 700px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 50px; 
+}
